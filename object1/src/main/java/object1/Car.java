@@ -21,7 +21,7 @@ public class Car {
         this.make = make;
     }
 
-    public String model() {
+    public String getModel() {
         return model;
     }
 
@@ -42,7 +42,7 @@ public class Car {
     }
 
     public void setMileage(int mileage){
-        this.mileage = mileage
+        this.mileage = mileage;
     }
 
 }
