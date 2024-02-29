@@ -13,8 +13,10 @@ public class Main {
 
         Chair chair = new Chair("wooden", "Red", 4);
         Car car = new Car("Mustang ", " Mach e", 2023, 1000);
+        Dog dog = new Dog("Kittu " , 6 , "Pug " );
         System.out.println("Name :" + person1.name + "Age : " + " " + person1.age + "Height :" + person1.height);
         System.out.println("Make :" + car.getMake() + "Model " + car.getModel() + "Year :" + car.getYear() + "Mileage :" + car.getMileage() );
         System.out.println("Material :" + chair.getMaterial() + "Color :" + chair.getColor() + "Legs :" + chair.getLegs());
+        System.out.println("Name :" + dog.getName() + "Age :" + dog.getAge() + "Breed :" + dog.getBreed());
     }
 }
